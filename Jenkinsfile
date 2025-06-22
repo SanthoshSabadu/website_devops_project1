@@ -3,7 +3,7 @@ pipeline {
 
     triggers {
         pollSCM('@daily') // daily check for changes
-        cron('H H 25 * *') // run on the 25th of every month
+        cron('H H 22 * *') // run on the 25th of every month
     }
 
     environment {
